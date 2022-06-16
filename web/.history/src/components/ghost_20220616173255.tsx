@@ -1,0 +1,5 @@
+export function Ghost() {
+    return(
+        
+    );
+}

@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-[#09090a] text-zinc-100;
+}
+
+.player{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/*.ghost{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: gold;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}*/
