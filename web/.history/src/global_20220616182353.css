@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-[#09090a] text-zinc-100;
+}
+
+.player {
+    width: center;
+    height: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

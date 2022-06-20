@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-[#09090a] margin: 0 text-zinc-100;
+    background-color: rgb(139 92 246);
+}
+
+.player {
+    width: 70vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.letra {
+
+}
