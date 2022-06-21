@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-[#09090a] text-zinc-100;
+    background-color: rgb(139 92 246);
+    margin: 0px;
+}
+
+.player {
+    width: 100vw;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+contentstep {
+    @apply top-5 left-5 absolute text-zinc-400 hover:text-zinc-100;
+}
+
+spancontent {
+    @apply p-2 text-xl leading-6 flex items-center gap-2;
+}
+
+descriptionfeedback {
+    min-w-[304px] w-full min-h-[112px] text-sm placeholder-zinc-400 text-zinc-100 border-zinc-600 bg-transparent rounded-md resize-none scrollbar scrollbar-thumb-zinc-700 scrollbar-track-transparent scrollbar-thin
+}

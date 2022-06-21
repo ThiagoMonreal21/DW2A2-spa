@@ -39,13 +39,13 @@ export function FeedbackContentStep({ feedbackType, onFeedbackRestartRequested, 
             <header>
                 <button
                     type="button"
-                    className="top-5 left-5 absolute text-zinc-400 hover:text-zinc-100"
+                    className="contentstep"
                     onClick={onFeedbackRestartRequested}
                 >
                     <ArrowLeft weight="bold" className="w-4 h-4" />
                 </button>
 
-                <span className="p-2 text-xl leading-6 flex items-center gap-2">
+                <span className="spancontent">
                     <img src={feedbackTypeInfo.image.source} alt={feedbackTypeInfo.image.alt} className="w-6 h-6" />
                     {feedbackTypeInfo.title}
                 </span>
@@ -55,7 +55,7 @@ export function FeedbackContentStep({ feedbackType, onFeedbackRestartRequested, 
 
             <form onSubmit={handleSubmitFeedback} className="p-2 ny-4 w-full">
                 <textarea
-                    className="min-w-[304px] w-full min-h-[112px] text-sm placeholder-zinc-400 text-zinc-100 border-zinc-600 bg-transparent rounded-md focus:border-brand-500 focus:ring-brand-500 focus:ring-1 focus:outline-nome resize-none scrollbar scrollbar-thumb-zinc-700 scrollbar-track-transparent scrollbar-thin"
+                    className="descriptionfeedback"
                     placeholder="Descreva qual o seu feedback..."
                     onChange={event => setComment(event.target.value)}
                 />
